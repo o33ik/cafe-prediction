@@ -1,0 +1,73 @@
+[ { "_id" : "7D3k56oS6H9TdtK5h",
+  "name" : "Kid's Poached Egg",
+  "salesPrice" : 5.5
+},
+  { "_id" : "6GnZhJRYfH7G9Licg",
+    "name" : "Super slice - Gf",
+    "salesPrice" : 4
+  },
+  { "_id" : "DKYvsBwsAjvaw3SBK",
+    "name" : "Goats Toast",
+    "salesPrice" : 17.5
+  },
+  { "_id" : "EZADTTF2TKAzPHPF4",
+    "name" : "Turkey Roll",
+    "salesPrice" : 11.5
+  },
+  { "_id" : "JGL7NFEMPnrWRvPyb",
+    "name" : "Kid's Lunch box",
+    "salesPrice" : 7.5
+  },
+  { "_id" : "KEMHx5xM8qcb6TYBQ",
+    "name" : "Cupcakes Platter",
+    "salesPrice" : 3.8
+  },
+  { "_id" : "PX2gyHrG8yC3932Tt",
+    "name" : "Pumpkin Roll",
+    "salesPrice" : 10.5
+  },
+  { "_id" : "PpiNhnf9LBQv7AaBR",
+    "name" : "Eggs & Bacon",
+    "salesPrice" : 13.5
+  },
+  { "_id" : "XKonmmzbGXuKzbqNf",
+    "name" : "Eggs on Toast",
+    "salesPrice" : 9.5
+  },
+  { "_id" : "XrXkqcvZZQ8viZCeY",
+    "name" : "Farmer's Breakfast",
+    "salesPrice" : 12
+  },
+  { "_id" : "h3bK7stpyMujp26Sf",
+    "name" : "Super Salad",
+    "salesPrice" : 16.5
+  },
+  { "_id" : "hKMzCTxtc6cKQpbdA",
+    "name" : "Caramel Banana bread",
+    "salesPrice" : 16.5
+  },
+  { "_id" : "hqSvbG9vHm5rs32mY",
+    "name" : "Eton Mess",
+    "salesPrice" : 17.5
+  },
+  { "_id" : "kuewEPk2G6sQcr5vQ",
+    "name" : "Pastrami roll",
+    "salesPrice" : 11.5
+  },
+  { "_id" : "u3KnoGo8DC5yshsSh",
+    "name" : "Swiss Brown",
+    "salesPrice" : 17.5
+  },
+  { "_id" : "vcegDsy35qH43urfq",
+    "name" : "Muesli",
+    "salesPrice" : 12.5
+  },
+  { "_id" : "wQpQwdEB5q2mSMGuS",
+    "name" : "Mushroom Pie",
+    "salesPrice" : 14.5
+  },
+  { "_id" : "zspjKwYed2ZHzYRA6",
+    "name" : "Sausage Roll",
+    "salesPrice" : 6.5
+  }
+]

@@ -1,0 +1,57 @@
+#wrapper {
+  margin-top: 20px;
+  .sidebar {
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 0px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee;
+
+    li {
+      cursor: pointer;
+      font-size: 1.1em;
+    }
+  }
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+
+    .menu-item-view-wrapper {
+      .buttons-wrapper {
+        padding-right: 0px;
+      }
+    }
+
+    .menu-items-wrapper {
+      .menu-items-grid {
+        margin-top: 10px;
+        
+        tbody {
+          tr {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+
+    .prediction-wrapper {
+      .weekpicker-wrapper {
+        width: 220px;
+        margin-bottom: 10px;
+      }
+    }
+
+    .settings-wrapper {
+      .row {
+        margin-bottom: 10px;
+      }
+    }
+
+  }
+}

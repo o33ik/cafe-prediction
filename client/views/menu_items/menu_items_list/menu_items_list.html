@@ -1,0 +1,34 @@
+<template name="menuItems">
+	<div class="menu-items-wrapper">
+		<div class="row">
+			<button class="btn btn-primary btn-sm pull-right add-menu-item-button">
+				Add <i class="fa fa-plus"></i>
+			</button>
+		</div>
+		<div class="row">
+			<table class="menu-items-grid table table-hover table-bordered">
+				<thead>
+					<tr>
+						<td>
+							Name
+							<button id="name" class="btn btn-white btn-xs pull-right sort-button">
+								<i class="fa fa-sort"></i>
+							</button>
+						</td>
+						<td>
+							Price
+							<button id="salesPrice" class="btn btn-white btn-xs pull-right sort-button">
+								<i class="fa fa-sort"></i>
+							</button>
+						</td>
+					</tr>
+				</thead>
+				<tbody>
+					{{#each menuItems}}
+						{{> menuItemslistItem menuItem=this}}
+					{{/each}}
+				</tbody>
+			</table>
+		</div>
+	</div>
+</template>

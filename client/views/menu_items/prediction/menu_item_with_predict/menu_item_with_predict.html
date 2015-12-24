@@ -1,0 +1,14 @@
+<template name="menuItemWithPredict">
+	<tr>
+		<td>
+			{{menuItem.name}}
+		</td>
+		{{#each dailySales}}
+			<td>
+				<td>
+					{{actualQuantity}} / {{predictedQuantity}}
+				</td>
+			</td>
+		{{/each}}
+	</tr>
+</template>

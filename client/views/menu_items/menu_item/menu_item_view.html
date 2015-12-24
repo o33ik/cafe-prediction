@@ -1,0 +1,69 @@
+<template name="menuItemView">
+	<div class="menu-item-view-wrapper">
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="pull-left">
+					{{#with menuItem}}
+						<div class="row">
+							<strong class="col-sm-3">
+								Name:
+							</strong>
+							<p class="col-sm-8 com-sm-offset-1">
+								{{name}}
+							</p>
+						</div>
+						<div class="row">
+							<strong class="col-sm-3">
+								Price:
+							</strong>
+							<p class="col-sm-8 com-sm-offset-1">
+								{{salesPrice}}
+							</p>
+						</div>
+					{{/with}}	
+				</div>
+			</div>
+			<div class="buttons-wrapper col-sm-6">
+				<div class="pull-right">
+					<button class="predict-button btn btn-primary">
+						Predict sales
+					</button>
+					<button class="delete-menu-item-button btn btn-primary">
+						Delete
+					</button>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<table class="daily-sales-grid table table-hover table-bordered">
+				<thead>
+					<tr>
+						<td>
+							Date
+							<button id="date" class="btn btn-white btn-xs pull-right sort-button">
+								<i class="fa fa-sort"></i>
+							</button>
+						</td>
+						<td>
+							Was sold
+							<button id="actualQuantity" class="btn btn-white btn-xs pull-right sort-button">
+								<i class="fa fa-sort"></i>
+							</button>
+						</td>
+						<td>
+							Predicted sales
+							<button id="predictedQuantity" class="btn btn-white btn-xs pull-right sort-button">
+								<i class="fa fa-sort"></i>
+							</button>
+						</td>
+					</tr>
+				</thead>
+				<tbody>
+					{{#each dailySales}}
+						{{> dailySalesListItem dailySale=this}}
+					{{/each}}
+				</tbody>
+			</table>
+		</div>
+	</div>
+</template>

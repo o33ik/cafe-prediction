@@ -1,0 +1,43 @@
+<template name="predictionView">
+	<div class="prediction-wrapper">
+		<div class="row">
+			<div class="row">
+				<div class="col-sm-6 col-sm-offset-6">
+					<div class="pull-right input-group weekpicker-wrapper">
+						<input type="text" class="form-control weekpicker">
+						<div class="input-group-addon">
+							<span class="glyphicon glyphicon-th"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="table">
+				<table class="table table-bordered table-striped">
+					<thead>
+						<tr>
+							<th>
+								MenuItem
+							</th>
+							{{#each daysOfWeek}}
+								<th>
+									{{this}}
+								</th>
+							{{/each}}
+						</tr>
+						{{> weather
+							selectedWeekAndYear=selectedWeekAndYear
+						}}
+					</thead>
+					<tbody>
+						{{#each menuItems}}
+							{{> menuItemWithPredict 
+								menuItem=this
+								selectedWeekAndYear=selectedWeekAndYear
+							}}
+						{{/each}}
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</template>
